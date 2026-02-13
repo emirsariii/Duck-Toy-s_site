@@ -1,0 +1,16 @@
+/* Varsayılan Vite ayarlarını sıfırlıyoruz */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: block; /* Flex'i kaldırdık, blok yaptık */
+  overflow-x: hidden; /* Yan taşmaları engelle */
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
